@@ -30,6 +30,8 @@ Please refer to [https://mailcow.github.io/mailcow-dockerized-docs/prerequisite-
 
 The testing API is for INWX's testing instance [https://ote.inwx.de](https://ote.inwx.de), the production API is for the normal inwx.de. You can make an account on the OTE instance and test your configuration at first use.
 
+The `dns_records` object defines whether certain DNS entries should be created or not.
+
 Edit config.json to your needs:
 
 ``` json
