@@ -1,16 +1,16 @@
-# inwx-mailcow-configurator
-Little program that automatically sets the needed DNS entries for running mailcow at the INWX domain registrar.
+# inwx-mailcow-dns-configurator
+Unfortunately the INWX web interface only lets you enter one DNS entry at a time and adding multiple domains to your mail server can get really annoying there.
+So I wrote this for quickly adding new domains to my mailserver. It is also possible to add a new mail server (add A and AAAA records as well).
 
 This is more a tool that automates entering the needed DNS records and assumes you know what you are doing.
 
-I wrote it for quickly adding new domains to my mailserver.
 
 ## TODO
 
-* CLI
+* Implement CLI
 * Cleanup
 * Make SPF, DKIM and DMARC entries more configurable (via config)
-* save entered IDs for deleteing them *(maybe)*
+* Save entered DNS-entry-IDs for deleteing them *(maybe)*
 
 ## Prerequisites
 
@@ -28,7 +28,9 @@ npm install
 
 Please refer to [https://mailcow.github.io/mailcow-dockerized-docs/prerequisite-dns/](https://mailcow.github.io/mailcow-dockerized-docs/prerequisite-dns/) for DNS configuration options.
 
-Edit config.json:
+The testing API is for INWX's testing instance [https://ote.inwx.de](https://ote.inwx.de), the production API is for the normal inwx.de. You can make an account on the OTE instance and test your configuration at first use.
+
+Edit config.json to your needs:
 
 ``` json
 {
@@ -73,7 +75,7 @@ Edit config.json:
 
 ## Run
 
-Until the real Command Loine Interface isn't ready, you need to run the `index.js` directly:
+Until the real Command Line Interface is not ready, you need to run the `index.js` directly:
 
 ``` bash
 node index.js
