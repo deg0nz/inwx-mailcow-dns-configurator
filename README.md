@@ -33,7 +33,7 @@ Edit config.json:
 ``` json
 {
   "login": {
-    "api": "testing",       // testing for ote.inwx.com prod for
+    "api": "testing",
     "user": "<USERNAME>",
     "password": "<YOU KEY>"
   },
