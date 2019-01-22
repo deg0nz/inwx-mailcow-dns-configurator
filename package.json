@@ -1,0 +1,8 @@
+{
+  "name": "mailcow-inwx-dns-configurator",
+  "version": "0.1.0",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inwx": "^1.0.0"
+  }
+}
