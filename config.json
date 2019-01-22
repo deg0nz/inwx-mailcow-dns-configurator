@@ -1,0 +1,38 @@
+{
+  "login": {
+    "api": "testing",
+    "user": "bgericke",
+    "password": ""
+  },
+  "domains": {
+    "dns_entry_domain": "123qwe.eu",
+    "mailserver": "mail.123qwe.eu"
+  },
+  "dkim_public_key": "Fqwd819u29832ncj23lf2p3923f2m3fjp2f9",
+  "mailauth_reports_address": "foo@bar.com",
+  "mail_records": {
+    "a": "192.168.0.1",
+    "aaaa": "fe80::1"
+  },
+  "dns_records" : {
+    "mail_a": true,
+    "mail_aaaa": true,
+    "dmarc_txt": true,
+    "dkim_txt": true,
+    "autodiscover_cname":true,
+    "autoconfig_cname": true,
+    "mx": true,
+    "pop3_srv": true,
+    "pop3s_srv": true,
+    "imap_srv": true,
+    "imaps_srv": true,
+    "smtps_srv": true,
+    "submission_srv": true,
+    "autodiscover_srv": true,
+    "spf_txt": true,
+    "caldav_srv": true,
+    "caldav_txt": true,
+    "carddav_srv": true,
+    "carddav_txt": true
+  }
+}
