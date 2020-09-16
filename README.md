@@ -31,7 +31,7 @@ The testing API is for INWX's testing instance [https://ote.inwx.de](https://ote
 
 The `dns_records` object defines whether certain DNS entries should be created or not.
 
-Edit `config.json` to your needs:
+Rename `config.example.json` to `config.json` and adjust it to your needs:
 
 ``` json
 {
