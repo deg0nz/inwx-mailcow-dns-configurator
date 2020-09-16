@@ -114,3 +114,5 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+# Exclude real config
+config.json
