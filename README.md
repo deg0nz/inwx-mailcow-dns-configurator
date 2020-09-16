@@ -2,8 +2,7 @@
 Unfortunately the INWX web interface only lets you enter one DNS entry at a time and adding multiple domains to your mail server can get really annoying there.
 So I wrote this for quickly adding new domains to my mailserver. It is also possible to add a new mail server (add A and AAAA records as well).
 
-This is more a tool that automates entering the needed DNS records and assumes you know what you are doing.
-
+This is more a tool that automates entering the needed DNS records and assumes that you know what you are doing.
 
 ## TODO
 
@@ -32,7 +31,7 @@ The testing API is for INWX's testing instance [https://ote.inwx.de](https://ote
 
 The `dns_records` object defines whether certain DNS entries should be created or not.
 
-Edit config.json to your needs:
+Edit `config.json` to your needs:
 
 ``` json
 {
